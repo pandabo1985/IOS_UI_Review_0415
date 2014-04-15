@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9BD1AA2B-CEA2-4C77-807B-6610B8986A26</string>
+	<key>IDESourceControlProjectName</key>
+	<string>HelloWorld_0415</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7542778D-B449-4C96-BFA9-F9D5AF1479E7</key>
+		<string>https://github.com/pandabo1985/IOS_UI_Review_0415.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>HelloWorld_0415/HelloWorld_0415.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7542778D-B449-4C96-BFA9-F9D5AF1479E7</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pandabo1985/IOS_UI_Review_0415.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7542778D-B449-4C96-BFA9-F9D5AF1479E7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7542778D-B449-4C96-BFA9-F9D5AF1479E7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>IOS_UI_Review_0415</string>
+		</dict>
+	</array>
+</dict>
+</plist>
