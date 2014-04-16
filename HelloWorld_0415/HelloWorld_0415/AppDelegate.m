@@ -32,9 +32,32 @@
     NSLog(@"lable = %@",label);
     [self.window addSubview:label];
     [label release];
+    NSLog(@"didFinishLaunchingWithOptions");
     return YES;
 }
 
+-(void)applicationWillResignActive:(UIApplication *)application
+{
+    NSLog(@"applicationWillResignActive");
+}
+
+-(void)applicationDidEnterBackground:(UIApplication *)application
+{
+    NSLog(@"applicationDidEnterBackground");
+}
+
+
+-(void)applicationWillEnterForeground:(UIApplication *)application{
+    NSLog(@"applicationWillEnterForeground");
+}
+
+-(void)applicationDidBecomeActive:(UIApplication *)application{
+    NSLog(@"applicationDidBecomeActive");
+}
+
+-(void)applicationWillTerminate:(UIApplication *)application{
+    NSLog(@"applicationWillTerminate");
+}
 -(void)dealloc
 {
     [_window release];
