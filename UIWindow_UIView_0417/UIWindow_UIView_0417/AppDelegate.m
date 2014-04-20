@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "SubView.h"
 
 @implementation AppDelegate
 
@@ -24,9 +25,9 @@
     NSLog(@"========levle: %.2f===",self.window.windowLevel);
     NSLog(@"self.window frame : %@",NSStringFromCGRect(self.window.frame));
     
-//    NSLog(@"========levle: %.2f===",UIWindowLevelNormal);
-//    NSLog(@"========levle: %.2f===",UIWindowLevelStatusBar);
-//    NSLog(@"========levle: %.2f===",UIWindowLevelAlert);
+    //    NSLog(@"========levle: %.2f===",UIWindowLevelNormal);
+    //    NSLog(@"========levle: %.2f===",UIWindowLevelStatusBar);
+    //    NSLog(@"========levle: %.2f===",UIWindowLevelAlert);
     
     UIButton *startButton = [UIButton buttonWithType:UIButtonTypeRoundedRect];
     [startButton setBackgroundColor:[UIColor grayColor]] ;
@@ -35,19 +36,72 @@
     [startButton addTarget:self action:@selector(alerUser) forControlEvents:UIControlEventTouchUpInside];
     [self.window addSubview:startButton];
     
-    UIView *view_01 = [[UIView alloc] initWithFrame:CGRectMake(60, 100, 200, 100)];
+    UIView *view_01 = [[UIView alloc] initWithFrame:CGRectMake(60, 250, 200, 100)];
+    view_01.alpha = 1;
     view_01.backgroundColor = [UIColor redColor];
     [self.window addSubview:view_01];
     [view_01 release];
+    [view_01 setTag:101];
+    NSLog(@"view_01 superview = %@",[view_01 superview]);
     
-    NSArray *subViews = [self.window subviews];
-    NSLog(@"*******subviews = %@",subViews);
+    UIView *view_02 = [[UIView alloc] initWithFrame:CGRectMake(60, 300, 200, 100)];
+    view_02.backgroundColor = [UIColor yellowColor];
+    [self.window addSubview:view_02];
+    [view_02 release];
+    NSLog(@"view_02 superview = %@",[view_02 superview]);
+    
+    UIButton *btnChange = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    [btnChange setBackgroundColor:[UIColor grayColor]];
+    btnChange.frame = CGRectMake(320/2-120/2, 500, 120, 35);
+    [btnChange setTitle:@"change view" forState:UIControlStateNormal];
+    
+    [btnChange addTarget:self action:@selector(changeView) forControlEvents:UIControlEventTouchUpInside];
+    [self.window addSubview:btnChange ];
+    NSLog(@"*****btnChange retainCount= %ld",[btnChange retainCount]);
+//    [btnChange release];// why not release?
+    
+    SubView *view_03 = [[SubView alloc] initWithFrame:CGRectMake(60, 350, 200, 100)];
+    view_03.backgroundColor = [UIColor greenColor];
+    view_03.tag = 102;
+    [self.window addSubview:view_03];
+    [view_03 release];
+    NSLog(@"view_02 superview = %@",[view_02 superview]);
+
+    
+    
+    //    NSArray *subViews = [self.window subviews];
+    //    NSLog(@"*******subviews = %@",subViews);
     
     return YES;
 }
 
+-(void)changeView{
+    SubView *subView = (SubView *)[self.window viewWithTag:102];
+     [subView test];
+    [subView removeFromSuperview];
+   
+    
+}
 
 -(void)alerUser{
+    //两次后崩溃，why????
+//    UIView *view_01 = nil;
+//    NSLog(@"view_01  retainCount== %ld",[view_01 retainCount]);
+//    NSArray *subViews = [self.window subviews];
+//    NSLog(@"subViews = %ld",[subViews count]);
+//    for (int i = 0;i<[subViews count]; i++) {
+//        UIView *view = [subViews objectAtIndex:i];
+//        NSLog(@"view_01  retainCount== %ld",[view_01 retainCount]);
+//        if (view.tag ==101) {
+//            NSLog(@"view_01  retainCount== %ld",[view_01 retainCount]);
+//            view_01 = view;
+//            [view release];
+//        }
+//    }
+    UIView *view_01 = [self.window viewWithTag:101];
+    NSLog(@"view_01  retainCount== %ld",[view_01 retainCount]);
+    [self.window bringSubviewToFront:view_01];
+    NSLog(@"view_01  retainCount== %ld",[view_01 retainCount]);
     UIAlertView *alertView = [[[UIAlertView alloc] initWithTitle:@"温馨提示" message:@"这Alert Level级别" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil] autorelease];
     [alertView show];
 }

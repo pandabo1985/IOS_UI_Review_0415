@@ -19,6 +19,7 @@
 		3B2B4FC619001104000657D8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B2B4FAE19001103000657D8 /* UIKit.framework */; };
 		3B2B4FCE19001104000657D8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B2B4FCC19001104000657D8 /* InfoPlist.strings */; };
 		3B2B4FD019001104000657D8 /* UIWindow_UIView_0417Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2B4FCF19001104000657D8 /* UIWindow_UIView_0417Tests.m */; };
+		3B7A5A8D19038394004C1F02 /* SubView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7A5A8C19038394004C1F02 /* SubView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		3B2B4FCB19001104000657D8 /* UIWindow_UIView_0417Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIWindow_UIView_0417Tests-Info.plist"; sourceTree = "<group>"; };
 		3B2B4FCD19001104000657D8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B2B4FCF19001104000657D8 /* UIWindow_UIView_0417Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIWindow_UIView_0417Tests.m; sourceTree = "<group>"; };
+		3B7A5A8B19038394004C1F02 /* SubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubView.h; sourceTree = "<group>"; };
+		3B7A5A8C19038394004C1F02 /* SubView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				3B2B4FB919001103000657D8 /* AppDelegate.h */,
 				3B2B4FBA19001103000657D8 /* AppDelegate.m */,
+				3B7A5A8B19038394004C1F02 /* SubView.h */,
+				3B7A5A8C19038394004C1F02 /* SubView.m */,
 				3B2B4FBC19001103000657D8 /* Images.xcassets */,
 				3B2B4FB119001103000657D8 /* Supporting Files */,
 			);
@@ -241,6 +246,7 @@
 			files = (
 				3B2B4FBB19001103000657D8 /* AppDelegate.m in Sources */,
 				3B2B4FB719001103000657D8 /* main.m in Sources */,
+				3B7A5A8D19038394004C1F02 /* SubView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +443,7 @@
 				3B2B4FD519001104000657D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B2B4FD619001104000657D8 /* Build configuration list for PBXNativeTarget "UIWindow_UIView_0417Tests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +452,7 @@
 				3B2B4FD819001104000657D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
