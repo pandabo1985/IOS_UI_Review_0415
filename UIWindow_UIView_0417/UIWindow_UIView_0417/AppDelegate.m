@@ -35,6 +35,14 @@
     [startButton addTarget:self action:@selector(alerUser) forControlEvents:UIControlEventTouchUpInside];
     [self.window addSubview:startButton];
     
+    UIView *view_01 = [[UIView alloc] initWithFrame:CGRectMake(60, 100, 200, 100)];
+    view_01.backgroundColor = [UIColor redColor];
+    [self.window addSubview:view_01];
+    [view_01 release];
+    
+    NSArray *subViews = [self.window subviews];
+    NSLog(@"*******subviews = %@",subViews);
+    
     return YES;
 }
 
