@@ -22,6 +22,8 @@
 		3BB85CF9190418450072C383 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB85CF8190418450072C383 /* RootViewController.m */; };
 		3BB85CFB190419BB0072C383 /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BB85CFA190419BB0072C383 /* View.xib */; };
 		3BB85CFD19041B9C0072C383 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3BB85CFC19041B9C0072C383 /* RootViewController.xib */; };
+		3BB85D00190490DE0072C383 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BB85CFF190490DD0072C383 /* MainViewController.m */; };
+		3BB85D021904A06E0072C383 /* UIViewController_Lifecycle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BB85D011904A06E0072C383 /* UIViewController_Lifecycle.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,9 @@
 		3BB85CF8190418450072C383 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		3BB85CFA190419BB0072C383 /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		3BB85CFC19041B9C0072C383 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		3BB85CFE190490DD0072C383 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3BB85CFF190490DD0072C383 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3BB85D011904A06E0072C383 /* UIViewController_Lifecycle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = UIViewController_Lifecycle.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +121,8 @@
 			children = (
 				3BB85CD7190403DD0072C383 /* AppDelegate.h */,
 				3BB85CD8190403DD0072C383 /* AppDelegate.m */,
+				3BB85CFE190490DD0072C383 /* MainViewController.h */,
+				3BB85CFF190490DD0072C383 /* MainViewController.m */,
 				3BB85CF7190418450072C383 /* RootViewController.h */,
 				3BB85CF8190418450072C383 /* RootViewController.m */,
 				3BB85CFA190419BB0072C383 /* View.xib */,
@@ -129,6 +136,7 @@
 		3BB85CCF190403DD0072C383 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3BB85D011904A06E0072C383 /* UIViewController_Lifecycle.png */,
 				3BB85CD0190403DD0072C383 /* UIViewController_0420-Info.plist */,
 				3BB85CD1190403DD0072C383 /* InfoPlist.strings */,
 				3BB85CD4190403DD0072C383 /* main.m */,
@@ -233,6 +241,7 @@
 				3BB85CD3190403DD0072C383 /* InfoPlist.strings in Resources */,
 				3BB85CFB190419BB0072C383 /* View.xib in Resources */,
 				3BB85CFD19041B9C0072C383 /* RootViewController.xib in Resources */,
+				3BB85D021904A06E0072C383 /* UIViewController_Lifecycle.png in Resources */,
 				3BB85CDB190403DD0072C383 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -255,6 +264,7 @@
 				3BB85CD9190403DD0072C383 /* AppDelegate.m in Sources */,
 				3BB85CD5190403DD0072C383 /* main.m in Sources */,
 				3BB85CF9190418450072C383 /* RootViewController.m in Sources */,
+				3BB85D00190490DE0072C383 /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

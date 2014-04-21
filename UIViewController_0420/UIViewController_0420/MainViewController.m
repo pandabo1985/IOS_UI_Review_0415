@@ -1,18 +1,27 @@
 //
-//  RootViewController.m
+//  MainViewController.m
 //  UIViewController_0420
 //
-//  Created by pan dabo on 14-4-20.
+//  Created by pan dabo on 14-4-21.
 //  Copyright (c) 2014年 pan dabo. All rights reserved.
 //
 
-#import "RootViewController.h"
+#import "MainViewController.h"
 
-@interface RootViewController ()
+@interface MainViewController ()
 
 @end
 
-@implementation RootViewController
+@implementation MainViewController
+
+- (id)init
+{
+    self = [super init];//调用父类
+    if (self) {
+       
+    }
+    return self;
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -24,9 +33,23 @@
 }
 
 
+-(void)loadView{
+    //覆盖loadView两种方式
+  //第一种方式,调用父类的loadView,
+    [super loadView];
+    //第二种方式，
+//    UIView *view=[[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+//    view.backgroundColor = [UIColor yellowColor];
+//    self.view = view;
+//    [view release];
+    NSLog(@"******loadView******");
+    //add subview
+}
 - (void)viewDidLoad
 {
+    NSLog(@"******viewDidLoad******self.view = %@",self.view);
     [super viewDidLoad];
+    //访问网络
     // Do any additional setup after loading the view.
 }
 

@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "MainViewController.h"
 
 @implementation AppDelegate
 
@@ -23,10 +24,15 @@
     
 //    RootViewController *rootViewControl = [[RootViewController alloc] initWithNibName:@"View" bundle:nil];
     
-    RootViewController *rootViewControl = [[RootViewController alloc] init];
-    self.window.rootViewController = rootViewControl;
+//    RootViewController *rootViewControl = [[RootViewController alloc] init];
+//    self.window.rootViewController = rootViewControl;
 //    [self.window addSubview:rootViewControl.view];//4.0之前方法
-    [rootViewControl release];
+//    [rootViewControl release];
+    
+    //UIViewController 生命周期
+    MainViewController *mainViewController = [[MainViewController alloc] init];
+    self.window.rootViewController = mainViewController;
+    [mainViewController release];
     return YES;
 }
 
