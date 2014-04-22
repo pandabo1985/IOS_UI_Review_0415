@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B08ACA11906A22A003FE552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B08ACA01906A22A003FE552 /* Foundation.framework */; };
+		3B08ACA31906A22A003FE552 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B08ACA21906A22A003FE552 /* CoreGraphics.framework */; };
+		3B08ACA51906A22A003FE552 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B08ACA41906A22A003FE552 /* UIKit.framework */; };
+		3B08ACAB1906A22A003FE552 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B08ACA91906A22A003FE552 /* InfoPlist.strings */; };
+		3B08ACAD1906A22A003FE552 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B08ACAC1906A22A003FE552 /* main.m */; };
+		3B08ACB11906A22A003FE552 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B08ACB01906A22A003FE552 /* AppDelegate.m */; };
+		3B08ACB31906A22A003FE552 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B08ACB21906A22A003FE552 /* Images.xcassets */; };
+		3B08ACBA1906A22A003FE552 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B08ACB91906A22A003FE552 /* XCTest.framework */; };
+		3B08ACBB1906A22A003FE552 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B08ACA01906A22A003FE552 /* Foundation.framework */; };
+		3B08ACBC1906A22A003FE552 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B08ACA41906A22A003FE552 /* UIKit.framework */; };
+		3B08ACC41906A22A003FE552 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B08ACC21906A22A003FE552 /* InfoPlist.strings */; };
+		3B08ACC61906A22A003FE552 /* ModalViewControllDemo_0422Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B08ACC51906A22A003FE552 /* ModalViewControllDemo_0422Tests.m */; };
+		3B08ACD11906A282003FE552 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B08ACD01906A282003FE552 /* RootViewController.m */; };
+		3B08ACD41906A3DE003FE552 /* ModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B08ACD31906A3DE003FE552 /* ModalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B08ACBD1906A22A003FE552 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B08AC951906A22A003FE552 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B08AC9C1906A22A003FE552;
+			remoteInfo = ModalViewControllDemo_0422;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B08AC9D1906A22A003FE552 /* ModalViewControllDemo_0422.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModalViewControllDemo_0422.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B08ACA01906A22A003FE552 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B08ACA21906A22A003FE552 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B08ACA41906A22A003FE552 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B08ACA81906A22A003FE552 /* ModalViewControllDemo_0422-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalViewControllDemo_0422-Info.plist"; sourceTree = "<group>"; };
+		3B08ACAA1906A22A003FE552 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B08ACAC1906A22A003FE552 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B08ACAE1906A22A003FE552 /* ModalViewControllDemo_0422-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ModalViewControllDemo_0422-Prefix.pch"; sourceTree = "<group>"; };
+		3B08ACAF1906A22A003FE552 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B08ACB01906A22A003FE552 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B08ACB21906A22A003FE552 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B08ACB81906A22A003FE552 /* ModalViewControllDemo_0422Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModalViewControllDemo_0422Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B08ACB91906A22A003FE552 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B08ACC11906A22A003FE552 /* ModalViewControllDemo_0422Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ModalViewControllDemo_0422Tests-Info.plist"; sourceTree = "<group>"; };
+		3B08ACC31906A22A003FE552 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B08ACC51906A22A003FE552 /* ModalViewControllDemo_0422Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModalViewControllDemo_0422Tests.m; sourceTree = "<group>"; };
+		3B08ACCF1906A282003FE552 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		3B08ACD01906A282003FE552 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		3B08ACD21906A3DE003FE552 /* ModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalViewController.h; sourceTree = "<group>"; };
+		3B08ACD31906A3DE003FE552 /* ModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B08AC9A1906A22A003FE552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B08ACA31906A22A003FE552 /* CoreGraphics.framework in Frameworks */,
+				3B08ACA51906A22A003FE552 /* UIKit.framework in Frameworks */,
+				3B08ACA11906A22A003FE552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B08ACB51906A22A003FE552 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B08ACBA1906A22A003FE552 /* XCTest.framework in Frameworks */,
+				3B08ACBC1906A22A003FE552 /* UIKit.framework in Frameworks */,
+				3B08ACBB1906A22A003FE552 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B08AC941906A22A003FE552 = {
+			isa = PBXGroup;
+			children = (
+				3B08ACA61906A22A003FE552 /* ModalViewControllDemo_0422 */,
+				3B08ACBF1906A22A003FE552 /* ModalViewControllDemo_0422Tests */,
+				3B08AC9F1906A22A003FE552 /* Frameworks */,
+				3B08AC9E1906A22A003FE552 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B08AC9E1906A22A003FE552 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B08AC9D1906A22A003FE552 /* ModalViewControllDemo_0422.app */,
+				3B08ACB81906A22A003FE552 /* ModalViewControllDemo_0422Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B08AC9F1906A22A003FE552 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B08ACA01906A22A003FE552 /* Foundation.framework */,
+				3B08ACA21906A22A003FE552 /* CoreGraphics.framework */,
+				3B08ACA41906A22A003FE552 /* UIKit.framework */,
+				3B08ACB91906A22A003FE552 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B08ACA61906A22A003FE552 /* ModalViewControllDemo_0422 */ = {
+			isa = PBXGroup;
+			children = (
+				3B08ACAF1906A22A003FE552 /* AppDelegate.h */,
+				3B08ACB01906A22A003FE552 /* AppDelegate.m */,
+				3B08ACCF1906A282003FE552 /* RootViewController.h */,
+				3B08ACD01906A282003FE552 /* RootViewController.m */,
+				3B08ACD21906A3DE003FE552 /* ModalViewController.h */,
+				3B08ACD31906A3DE003FE552 /* ModalViewController.m */,
+				3B08ACB21906A22A003FE552 /* Images.xcassets */,
+				3B08ACA71906A22A003FE552 /* Supporting Files */,
+			);
+			path = ModalViewControllDemo_0422;
+			sourceTree = "<group>";
+		};
+		3B08ACA71906A22A003FE552 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B08ACA81906A22A003FE552 /* ModalViewControllDemo_0422-Info.plist */,
+				3B08ACA91906A22A003FE552 /* InfoPlist.strings */,
+				3B08ACAC1906A22A003FE552 /* main.m */,
+				3B08ACAE1906A22A003FE552 /* ModalViewControllDemo_0422-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B08ACBF1906A22A003FE552 /* ModalViewControllDemo_0422Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3B08ACC51906A22A003FE552 /* ModalViewControllDemo_0422Tests.m */,
+				3B08ACC01906A22A003FE552 /* Supporting Files */,
+			);
+			path = ModalViewControllDemo_0422Tests;
+			sourceTree = "<group>";
+		};
+		3B08ACC01906A22A003FE552 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B08ACC11906A22A003FE552 /* ModalViewControllDemo_0422Tests-Info.plist */,
+				3B08ACC21906A22A003FE552 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B08AC9C1906A22A003FE552 /* ModalViewControllDemo_0422 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B08ACC91906A22A003FE552 /* Build configuration list for PBXNativeTarget "ModalViewControllDemo_0422" */;
+			buildPhases = (
+				3B08AC991906A22A003FE552 /* Sources */,
+				3B08AC9A1906A22A003FE552 /* Frameworks */,
+				3B08AC9B1906A22A003FE552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ModalViewControllDemo_0422;
+			productName = ModalViewControllDemo_0422;
+			productReference = 3B08AC9D1906A22A003FE552 /* ModalViewControllDemo_0422.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B08ACB71906A22A003FE552 /* ModalViewControllDemo_0422Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B08ACCC1906A22A003FE552 /* Build configuration list for PBXNativeTarget "ModalViewControllDemo_0422Tests" */;
+			buildPhases = (
+				3B08ACB41906A22A003FE552 /* Sources */,
+				3B08ACB51906A22A003FE552 /* Frameworks */,
+				3B08ACB61906A22A003FE552 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B08ACBE1906A22A003FE552 /* PBXTargetDependency */,
+			);
+			name = ModalViewControllDemo_0422Tests;
+			productName = ModalViewControllDemo_0422Tests;
+			productReference = 3B08ACB81906A22A003FE552 /* ModalViewControllDemo_0422Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B08AC951906A22A003FE552 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "pan dabo";
+				TargetAttributes = {
+					3B08ACB71906A22A003FE552 = {
+						TestTargetID = 3B08AC9C1906A22A003FE552;
+					};
+				};
+			};
+			buildConfigurationList = 3B08AC981906A22A003FE552 /* Build configuration list for PBXProject "ModalViewControllDemo_0422" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3B08AC941906A22A003FE552;
+			productRefGroup = 3B08AC9E1906A22A003FE552 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B08AC9C1906A22A003FE552 /* ModalViewControllDemo_0422 */,
+				3B08ACB71906A22A003FE552 /* ModalViewControllDemo_0422Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B08AC9B1906A22A003FE552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B08ACAB1906A22A003FE552 /* InfoPlist.strings in Resources */,
+				3B08ACB31906A22A003FE552 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B08ACB61906A22A003FE552 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B08ACC41906A22A003FE552 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B08AC991906A22A003FE552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B08ACD41906A3DE003FE552 /* ModalViewController.m in Sources */,
+				3B08ACB11906A22A003FE552 /* AppDelegate.m in Sources */,
+				3B08ACAD1906A22A003FE552 /* main.m in Sources */,
+				3B08ACD11906A282003FE552 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B08ACB41906A22A003FE552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B08ACC61906A22A003FE552 /* ModalViewControllDemo_0422Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B08ACBE1906A22A003FE552 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B08AC9C1906A22A003FE552 /* ModalViewControllDemo_0422 */;
+			targetProxy = 3B08ACBD1906A22A003FE552 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B08ACA91906A22A003FE552 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B08ACAA1906A22A003FE552 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B08ACC21906A22A003FE552 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B08ACC31906A22A003FE552 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B08ACC71906A22A003FE552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B08ACC81906A22A003FE552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B08ACCA1906A22A003FE552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalViewControllDemo_0422/ModalViewControllDemo_0422-Prefix.pch";
+				INFOPLIST_FILE = "ModalViewControllDemo_0422/ModalViewControllDemo_0422-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B08ACCB1906A22A003FE552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalViewControllDemo_0422/ModalViewControllDemo_0422-Prefix.pch";
+				INFOPLIST_FILE = "ModalViewControllDemo_0422/ModalViewControllDemo_0422-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B08ACCD1906A22A003FE552 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalViewControllDemo_0422.app/ModalViewControllDemo_0422";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalViewControllDemo_0422/ModalViewControllDemo_0422-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ModalViewControllDemo_0422Tests/ModalViewControllDemo_0422Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B08ACCE1906A22A003FE552 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ModalViewControllDemo_0422.app/ModalViewControllDemo_0422";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ModalViewControllDemo_0422/ModalViewControllDemo_0422-Prefix.pch";
+				INFOPLIST_FILE = "ModalViewControllDemo_0422Tests/ModalViewControllDemo_0422Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B08AC981906A22A003FE552 /* Build configuration list for PBXProject "ModalViewControllDemo_0422" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B08ACC71906A22A003FE552 /* Debug */,
+				3B08ACC81906A22A003FE552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B08ACC91906A22A003FE552 /* Build configuration list for PBXNativeTarget "ModalViewControllDemo_0422" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B08ACCA1906A22A003FE552 /* Debug */,
+				3B08ACCB1906A22A003FE552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3B08ACCC1906A22A003FE552 /* Build configuration list for PBXNativeTarget "ModalViewControllDemo_0422Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B08ACCD1906A22A003FE552 /* Debug */,
+				3B08ACCE1906A22A003FE552 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B08AC951906A22A003FE552 /* Project object */;
+}
