@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B638E0F1905523200A4861A /* SubViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B638E0E1905523200A4861A /* SubViewController.m */; };
 		3BB85CC9190403DC0072C383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB85CC8190403DC0072C383 /* Foundation.framework */; };
 		3BB85CCB190403DC0072C383 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB85CCA190403DC0072C383 /* CoreGraphics.framework */; };
 		3BB85CCD190403DC0072C383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BB85CCC190403DC0072C383 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3B638E0D1905523200A4861A /* SubViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubViewController.h; sourceTree = "<group>"; };
+		3B638E0E1905523200A4861A /* SubViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubViewController.m; sourceTree = "<group>"; };
 		3BB85CC5190403DC0072C383 /* UIViewController_0420.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIViewController_0420.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB85CC8190403DC0072C383 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3BB85CCA190403DC0072C383 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -123,6 +126,8 @@
 				3BB85CD8190403DD0072C383 /* AppDelegate.m */,
 				3BB85CFE190490DD0072C383 /* MainViewController.h */,
 				3BB85CFF190490DD0072C383 /* MainViewController.m */,
+				3B638E0D1905523200A4861A /* SubViewController.h */,
+				3B638E0E1905523200A4861A /* SubViewController.m */,
 				3BB85CF7190418450072C383 /* RootViewController.h */,
 				3BB85CF8190418450072C383 /* RootViewController.m */,
 				3BB85CFA190419BB0072C383 /* View.xib */,
@@ -261,6 +266,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3B638E0F1905523200A4861A /* SubViewController.m in Sources */,
 				3BB85CD9190403DD0072C383 /* AppDelegate.m in Sources */,
 				3BB85CD5190403DD0072C383 /* main.m in Sources */,
 				3BB85CF9190418450072C383 /* RootViewController.m in Sources */,
@@ -461,6 +467,7 @@
 				3BB85CF3190403DD0072C383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3BB85CF4190403DD0072C383 /* Build configuration list for PBXNativeTarget "UIViewController_0420Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				3BB85CF6190403DD0072C383 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

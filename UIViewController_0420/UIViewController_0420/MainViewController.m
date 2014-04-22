@@ -36,14 +36,19 @@
 -(void)loadView{
     //覆盖loadView两种方式
   //第一种方式,调用父类的loadView,
-    [super loadView];
+//    [super loadView];
     //第二种方式，
-//    UIView *view=[[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
-//    view.backgroundColor = [UIColor yellowColor];
-//    self.view = view;
-//    [view release];
+    UIView *view=[[UIView alloc] initWithFrame:[[UIScreen mainScreen] applicationFrame]];
+    view.backgroundColor = [UIColor yellowColor];
+    self.view = view;
+    [view release];
     NSLog(@"******loadView******");
     //add subview
+    UIView *subView = [[UIView alloc] initWithFrame:CGRectMake(60, 20, 200, 200)];
+    subView.backgroundColor = [UIColor blackColor];
+    [self.view addSubview:subView];
+    
+    [subView release];
 }
 - (void)viewDidLoad
 {
@@ -70,4 +75,15 @@
 }
 */
 
+
+-(void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    NSLog(@"*********viewWillAppear************");
+}
+-(void)viewDidAppear:(BOOL)animated
+{
+    [super viewDidAppear:animated];
+    NSLog(@"*********viewDidAppear************");
+}
 @end

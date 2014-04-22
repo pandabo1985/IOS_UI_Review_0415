@@ -1,16 +1,14 @@
 //
 //  AppDelegate.m
-//  UIViewController_0420
+//  UnLoadViewDemo_0421
 //
-//  Created by pan dabo on 14-4-20.
+//  Created by pan dabo on 14-4-21.
 //  Copyright (c) 2014年 pan dabo. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "RootViewController.h"
-#import "MainViewController.h"
-
-#import "SubViewController.h"
+#import "FirstViewController.h"
+#import "SecondViewController.h"
 
 @implementation AppDelegate
 
@@ -20,24 +18,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    FirstViewController *firstViewController = [[[FirstViewController alloc]init] autorelease];
+    SecondViewController *secondViewController = [[[SecondViewController alloc] init] autorelease];
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = @[firstViewController,secondViewController];
+    self.window.rootViewController = tabBarController;
+    [tabBarController release];
     
-//    RootViewController *rootViewControl = [[RootViewController alloc] init];
-//    rootViewControl.view.backgroundColor = [UIColor redColor];
-    
-//    RootViewController *rootViewControl = [[RootViewController alloc] initWithNibName:@"View" bundle:nil];
-    
-//    RootViewController *rootViewControl = [[RootViewController alloc] init];
-//    self.window.rootViewController = rootViewControl;
-//    [self.window addSubview:rootViewControl.view];//4.0之前方法
-//    [rootViewControl release];
-    
-    //UIViewController 生命周期
-//    MainViewController *mainViewController = [[MainViewController alloc] init];
-//    self.window.rootViewController = mainViewController;
-//    [mainViewController release];
-    SubViewController *subViewController = [[SubViewController alloc] init];
-    self.window.rootViewController = subViewController;
-    [subViewController release];
     return YES;
 }
 
