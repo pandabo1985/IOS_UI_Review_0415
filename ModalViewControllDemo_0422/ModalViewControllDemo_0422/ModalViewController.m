@@ -38,10 +38,15 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    [super viewDidLoad];
+
     self.view.backgroundColor = [UIColor grayColor];
+    _textField = [[UITextField alloc] initWithFrame:CGRectMake(320/2 - 140/2, 100, 140, 40)];
+    _textField.borderStyle = UITextBorderStyleRoundedRect;
+    [self.view addSubview:_textField];
+    
+    
     UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
-    button.frame = CGRectMake(320/2-140/2, 80, 140, 40);
+    button.frame = CGRectMake(320/2-140/2, 180, 140, 40);
     button.backgroundColor =[UIColor whiteColor];
     [button setTitle:@"Dismiss" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(dismissModalVC) forControlEvents:UIControlEventTouchUpInside];
@@ -53,6 +58,12 @@
 //    if ([self respondsToSelector:@selector(dismissModalViewControllerAnimated:)]) {
 //           [self dismissModalViewControllerAnimated:YES];
 //    }
+    
+    if ([self.delegate respondsToSelector:@selector(changeLabelText:)]) {
+            [self.delegate changeLabelText:_textField.text];
+    }
+
+    
     [self dismissViewControllerAnimated:YES completion:^{
         NSLog(@"bloc = dismissModalVC");
     }];
@@ -74,5 +85,9 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+-(void)dealloc
+{
+    [super dealloc];
+    [_textField release];
+}
 @end

@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ModalViewController.h"
 
-@interface RootViewController : UIViewController
+
+@interface RootViewController : UIViewController<ModalViewControllerDelegate>
+
+
 
 @end

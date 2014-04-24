@@ -8,6 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ModalViewController : UIViewController
+@protocol ModalViewControllerDelegate <NSObject>
 
+@optional
+-(void)changeLabelText:(NSString*)text;
+
+@end
+
+@interface ModalViewController : UIViewController
+{
+    @private
+    UITextField *_textField;
+}
+
+@property(nonatomic,assign)id<ModalViewControllerDelegate> delegate;
 @end

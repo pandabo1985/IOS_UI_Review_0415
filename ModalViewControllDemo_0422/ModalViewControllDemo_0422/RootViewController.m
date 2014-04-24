@@ -34,6 +34,15 @@
     [button setTitle:@"Present" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(presentModalVC) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:button];
+    
+    UILabel *lable = [[UILabel alloc] initWithFrame:CGRectMake(90, 140, 140, 40)];
+    lable.backgroundColor = [UIColor whiteColor];
+    lable.text = @"Hello world";
+    lable.tag = 102;
+    lable.textAlignment = NSTextAlignmentCenter;
+    [self.view addSubview:lable];
+    [lable release];
+    
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
     
 }
@@ -46,7 +55,8 @@
 }
 -(void)presentModalVC{
     ModalViewController *modalViewCtl = [[ModalViewController alloc] init];
-    modalViewCtl.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+//    modalViewCtl.modalTransitionStyle = UIModalTransitionStylePartialCurl;
+    modalViewCtl.delegate = self;
     UIDevice *device = [UIDevice currentDevice];
     if ([device.systemVersion floatValue]>6.0) {
         NSLog(@"*****>6.0*******");
@@ -98,4 +108,13 @@
     return UIInterfaceOrientationMaskAll;
 }
 
+#pragma mark -
+-(void)changeLabelText:(NSString *)text
+{
+    UILabel *label =(UILabel *) [self.view viewWithTag:102];
+    if (text.length==0) {
+        label.text = @"hello la";
+    }else{
+        label.text = text;}
+}
 @end
