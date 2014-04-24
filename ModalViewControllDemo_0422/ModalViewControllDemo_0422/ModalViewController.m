@@ -59,6 +59,7 @@
 //           [self dismissModalViewControllerAnimated:YES];
 //    }
     
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"ChangeLabelTextNotification" object:_textField.text];
     if ([self.delegate respondsToSelector:@selector(changeLabelText:)]) {
             [self.delegate changeLabelText:_textField.text];
     }

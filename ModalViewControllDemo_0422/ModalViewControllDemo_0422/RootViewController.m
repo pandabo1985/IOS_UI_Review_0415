@@ -43,7 +43,9 @@
     [self.view addSubview:lable];
     [lable release];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
+//    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(deviceChange:) name:UIDeviceOrientationDidChangeNotification object:nil];
+    //注册通知中心一条通知“ChangeLabelTextNotification”
+     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(changeLabelTextNotifaction:) name:@"ChangeLabelTextNotification" object:nil];
     
 }
 
@@ -108,6 +110,15 @@
     return UIInterfaceOrientationMaskAll;
 }
 
+
+#pragma mark -
+-(void)changeLabelTextNotifaction:(NSNotification *)notification_text
+{
+    id text = notification_text.object;
+    UILabel *label =(UILabel *) [self.view viewWithTag:102];
+    label.text = text;
+    
+}
 #pragma mark -
 -(void)changeLabelText:(NSString *)text
 {
@@ -116,5 +127,12 @@
         label.text = @"hello la";
     }else{
         label.text = text;}
+}
+
+-(void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"ChangeLabelTextNotification" object:nil];
+    [super dealloc];
+    
 }
 @end
