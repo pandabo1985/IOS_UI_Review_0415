@@ -23,10 +23,27 @@
     [pageCtrl addTarget:self action:@selector(chage:) forControlEvents:UIControlEventValueChanged];
     pageCtrl.backgroundColor = [UIColor grayColor];
     [self.window addSubview:pageCtrl];
+  
     [self.window makeKeyAndVisible];
+    
+    
+    UIActivityIndicatorView *activityView = [[UIActivityIndicatorView alloc] initWithActivityIndicatorStyle:UIActivityIndicatorViewStyleWhiteLarge];
+    activityView.center = CGPointMake(150, 200);
+    [activityView startAnimating];
+    [self.window addSubview:activityView];
+    
+    [NSTimer scheduledTimerWithTimeInterval:3 target:self selector:@selector(stopAcitvity:) userInfo:activityView repeats:NO];
+    [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:YES];
     return YES;
 }
 
+-(void)stopAcitvity:(NSTimer *)timer
+{
+     [[UIApplication sharedApplication] setNetworkActivityIndicatorVisible:NO];
+    UIActivityIndicatorView *activityView = [timer userInfo];
+    [activityView stopAnimating];
+}
+     
 -(void)chage:(UIPageControl *)pageCtrl
 {
     NSLog(@"currentPage = %d",pageCtrl.currentPage);
