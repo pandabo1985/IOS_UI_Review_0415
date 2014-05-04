@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  UISegmentedControl_0428
+//  UIPageControl_0504
 //
-//  Created by pan dabo on 14-4-28.
+//  Created by pan dabo on 14-5-4.
 //  Copyright (c) 2014年 pan dabo. All rights reserved.
 //
 
@@ -15,20 +15,21 @@
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    UIPageControl *pageCtrl = [[UIPageControl alloc] initWithFrame:CGRectMake(0, 180, 320, 40)];
+    pageCtrl.numberOfPages = 10;
+    pageCtrl.currentPage = 2;
+//    pageCtrl.hidesForSinglePage = YES;
+//    pageCtrl.enabled = NO;
+    [pageCtrl addTarget:self action:@selector(chage:) forControlEvents:UIControlEventValueChanged];
+    pageCtrl.backgroundColor = [UIColor grayColor];
+    [self.window addSubview:pageCtrl];
     [self.window makeKeyAndVisible];
-    NSArray *array = [NSArray arrayWithObjects:@"选择",@"搜索",@"工具" ,nil];
-    UISegmentedControl *segmentCtrl = [[UISegmentedControl alloc] initWithItems:array];
-    segmentCtrl.frame = CGRectMake(20, 50, 150, 25);
-    segmentCtrl.segmentedControlStyle = UISegmentedControlStyleBordered;
-    segmentCtrl.selectedSegmentIndex = 0;
-    [segmentCtrl addTarget:self action:@selector(segmentAction:) forControlEvents:UIControlEventValueChanged];
-    [self.window addSubview:segmentCtrl];
     return YES;
 }
 
--(void)segmentAction:(UISegmentedControl *) segmentCtrl{
-    
-   
+-(void)chage:(UIPageControl *)pageCtrl
+{
+    NSLog(@"currentPage = %d",pageCtrl.currentPage);
 }
 - (void)applicationWillResignActive:(UIApplication *)application
 {
