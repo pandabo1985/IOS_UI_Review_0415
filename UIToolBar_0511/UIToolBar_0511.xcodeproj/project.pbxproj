@@ -34,20 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3B18486A1917CA1C00E1CC2C /* UINavigation_0511.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UINavigation_0511.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B18486A1917CA1C00E1CC2C /* UIToolBar_0511.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIToolBar_0511.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B18486D1917CA1C00E1CC2C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3B18486F1917CA1C00E1CC2C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		3B1848711917CA1C00E1CC2C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		3B1848751917CA1C00E1CC2C /* UINavigation_0511-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINavigation_0511-Info.plist"; sourceTree = "<group>"; };
+		3B1848751917CA1C00E1CC2C /* UIToolBar_0511-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIToolBar_0511-Info.plist"; sourceTree = "<group>"; };
 		3B1848771917CA1C00E1CC2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B1848791917CA1C00E1CC2C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		3B18487B1917CA1C00E1CC2C /* UINavigation_0511-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigation_0511-Prefix.pch"; sourceTree = "<group>"; };
+		3B18487B1917CA1C00E1CC2C /* UIToolBar_0511-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIToolBar_0511-Prefix.pch"; sourceTree = "<group>"; };
 		3B18487C1917CA1C00E1CC2C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3B18487D1917CA1C00E1CC2C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		3B18487F1917CA1C00E1CC2C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		3B1848851917CA1C00E1CC2C /* UINavigation_0511Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UINavigation_0511Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B1848851917CA1C00E1CC2C /* UIToolBar_0511Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIToolBar_0511Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B1848861917CA1C00E1CC2C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		3B18488E1917CA1C00E1CC2C /* UINavigation_0511Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UINavigation_0511Tests-Info.plist"; sourceTree = "<group>"; };
+		3B18488E1917CA1C00E1CC2C /* UIToolBar_0511Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UIToolBar_0511Tests-Info.plist"; sourceTree = "<group>"; };
 		3B1848901917CA1C00E1CC2C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3B1848921917CA1C00E1CC2C /* UINavigation_0505Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UINavigation_0505Tests.m; sourceTree = "<group>"; };
 		3B18489C1917CCEA00E1CC2C /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -93,8 +93,8 @@
 		3B18486B1917CA1C00E1CC2C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3B18486A1917CA1C00E1CC2C /* UINavigation_0511.app */,
-				3B1848851917CA1C00E1CC2C /* UINavigation_0511Tests.xctest */,
+				3B18486A1917CA1C00E1CC2C /* UIToolBar_0511.app */,
+				3B1848851917CA1C00E1CC2C /* UIToolBar_0511Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -128,10 +128,10 @@
 		3B1848741917CA1C00E1CC2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B1848751917CA1C00E1CC2C /* UINavigation_0511-Info.plist */,
+				3B1848751917CA1C00E1CC2C /* UIToolBar_0511-Info.plist */,
 				3B1848761917CA1C00E1CC2C /* InfoPlist.strings */,
 				3B1848791917CA1C00E1CC2C /* main.m */,
-				3B18487B1917CA1C00E1CC2C /* UINavigation_0511-Prefix.pch */,
+				3B18487B1917CA1C00E1CC2C /* UIToolBar_0511-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -148,7 +148,7 @@
 		3B18488D1917CA1C00E1CC2C /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3B18488E1917CA1C00E1CC2C /* UINavigation_0511Tests-Info.plist */,
+				3B18488E1917CA1C00E1CC2C /* UIToolBar_0511Tests-Info.plist */,
 				3B18488F1917CA1C00E1CC2C /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -157,9 +157,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3B1848691917CA1B00E1CC2C /* UINavigation_0511 */ = {
+		3B1848691917CA1B00E1CC2C /* UIToolBar_0511 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B1848961917CA1C00E1CC2C /* Build configuration list for PBXNativeTarget "UINavigation_0511" */;
+			buildConfigurationList = 3B1848961917CA1C00E1CC2C /* Build configuration list for PBXNativeTarget "UIToolBar_0511" */;
 			buildPhases = (
 				3B1848661917CA1B00E1CC2C /* Sources */,
 				3B1848671917CA1B00E1CC2C /* Frameworks */,
@@ -169,14 +169,14 @@
 			);
 			dependencies = (
 			);
-			name = UINavigation_0511;
+			name = UIToolBar_0511;
 			productName = UINavigation_0505;
-			productReference = 3B18486A1917CA1C00E1CC2C /* UINavigation_0511.app */;
+			productReference = 3B18486A1917CA1C00E1CC2C /* UIToolBar_0511.app */;
 			productType = "com.apple.product-type.application";
 		};
-		3B1848841917CA1C00E1CC2C /* UINavigation_0511Tests */ = {
+		3B1848841917CA1C00E1CC2C /* UIToolBar_0511Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3B1848991917CA1C00E1CC2C /* Build configuration list for PBXNativeTarget "UINavigation_0511Tests" */;
+			buildConfigurationList = 3B1848991917CA1C00E1CC2C /* Build configuration list for PBXNativeTarget "UIToolBar_0511Tests" */;
 			buildPhases = (
 				3B1848811917CA1C00E1CC2C /* Sources */,
 				3B1848821917CA1C00E1CC2C /* Frameworks */,
@@ -187,9 +187,9 @@
 			dependencies = (
 				3B18488B1917CA1C00E1CC2C /* PBXTargetDependency */,
 			);
-			name = UINavigation_0511Tests;
+			name = UIToolBar_0511Tests;
 			productName = UINavigation_0505Tests;
-			productReference = 3B1848851917CA1C00E1CC2C /* UINavigation_0511Tests.xctest */;
+			productReference = 3B1848851917CA1C00E1CC2C /* UIToolBar_0511Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -206,7 +206,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3B1848651917CA1B00E1CC2C /* Build configuration list for PBXProject "UINavigation_0511" */;
+			buildConfigurationList = 3B1848651917CA1B00E1CC2C /* Build configuration list for PBXProject "UIToolBar_0511" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -218,8 +218,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3B1848691917CA1B00E1CC2C /* UINavigation_0511 */,
-				3B1848841917CA1C00E1CC2C /* UINavigation_0511Tests */,
+				3B1848691917CA1B00E1CC2C /* UIToolBar_0511 */,
+				3B1848841917CA1C00E1CC2C /* UIToolBar_0511Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +269,7 @@
 /* Begin PBXTargetDependency section */
 		3B18488B1917CA1C00E1CC2C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 3B1848691917CA1B00E1CC2C /* UINavigation_0511 */;
+			target = 3B1848691917CA1B00E1CC2C /* UIToolBar_0511 */;
 			targetProxy = 3B18488A1917CA1C00E1CC2C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -370,9 +370,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UINavigation_0505/UINavigation_0511-Prefix.pch";
-				INFOPLIST_FILE = "UINavigation_0505/UINavigation_0511-Info.plist";
-				PRODUCT_NAME = UINavigation_0511;
+				GCC_PREFIX_HEADER = "UINavigation_0505/UIToolBar_0511-Prefix.pch";
+				INFOPLIST_FILE = "UINavigation_0505/UIToolBar_0511-Info.plist";
+				PRODUCT_NAME = UIToolBar_0511;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -383,9 +383,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "UINavigation_0505/UINavigation_0511-Prefix.pch";
-				INFOPLIST_FILE = "UINavigation_0505/UINavigation_0511-Info.plist";
-				PRODUCT_NAME = UINavigation_0511;
+				GCC_PREFIX_HEADER = "UINavigation_0505/UIToolBar_0511-Prefix.pch";
+				INFOPLIST_FILE = "UINavigation_0505/UIToolBar_0511-Info.plist";
+				PRODUCT_NAME = UIToolBar_0511;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -405,8 +405,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "UINavigation_0505Tests/UINavigation_0511Tests-Info.plist";
-				PRODUCT_NAME = UINavigation_0511Tests;
+				INFOPLIST_FILE = "UINavigation_0505Tests/UIToolBar_0511Tests-Info.plist";
+				PRODUCT_NAME = UIToolBar_0511Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -423,8 +423,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "UINavigation_0505/UINavigation_0505-Prefix.pch";
-				INFOPLIST_FILE = "UINavigation_0505Tests/UINavigation_0511Tests-Info.plist";
-				PRODUCT_NAME = UINavigation_0511Tests;
+				INFOPLIST_FILE = "UINavigation_0505Tests/UIToolBar_0511Tests-Info.plist";
+				PRODUCT_NAME = UIToolBar_0511Tests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -433,7 +433,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3B1848651917CA1B00E1CC2C /* Build configuration list for PBXProject "UINavigation_0511" */ = {
+		3B1848651917CA1B00E1CC2C /* Build configuration list for PBXProject "UIToolBar_0511" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B1848941917CA1C00E1CC2C /* Debug */,
@@ -442,7 +442,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B1848961917CA1C00E1CC2C /* Build configuration list for PBXNativeTarget "UINavigation_0511" */ = {
+		3B1848961917CA1C00E1CC2C /* Build configuration list for PBXNativeTarget "UIToolBar_0511" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B1848971917CA1C00E1CC2C /* Debug */,
@@ -451,7 +451,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3B1848991917CA1C00E1CC2C /* Build configuration list for PBXNativeTarget "UINavigation_0511Tests" */ = {
+		3B1848991917CA1C00E1CC2C /* Build configuration list for PBXNativeTarget "UIToolBar_0511Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3B18489A1917CA1C00E1CC2C /* Debug */,

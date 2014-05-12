@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B1848691917CA1B00E1CC2C"
-               BuildableName = "UINavigation_0505.app"
-               BlueprintName = "UINavigation_0511"
-               ReferencedContainer = "container:UINavigation_0511.xcodeproj">
+               BuildableName = "UIToolBar_0511.app"
+               BlueprintName = "UIToolBar_0511"
+               ReferencedContainer = "container:UIToolBar_0511.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "3B1848841917CA1C00E1CC2C"
-               BuildableName = "UINavigation_0505Tests.xctest"
-               BlueprintName = "UINavigation_0511Tests"
-               ReferencedContainer = "container:UINavigation_0511.xcodeproj">
+               BuildableName = "UIToolBar_0511Tests.xctest"
+               BlueprintName = "UIToolBar_0511Tests"
+               ReferencedContainer = "container:UIToolBar_0511.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B1848691917CA1B00E1CC2C"
-            BuildableName = "UINavigation_0505.app"
-            BlueprintName = "UINavigation_0511"
-            ReferencedContainer = "container:UINavigation_0511.xcodeproj">
+            BuildableName = "UIToolBar_0511.app"
+            BlueprintName = "UIToolBar_0511"
+            ReferencedContainer = "container:UIToolBar_0511.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B1848691917CA1B00E1CC2C"
-            BuildableName = "UINavigation_0505.app"
-            BlueprintName = "UINavigation_0511"
-            ReferencedContainer = "container:UINavigation_0511.xcodeproj">
+            BuildableName = "UIToolBar_0511.app"
+            BlueprintName = "UIToolBar_0511"
+            ReferencedContainer = "container:UIToolBar_0511.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "3B1848691917CA1B00E1CC2C"
-            BuildableName = "UINavigation_0505.app"
-            BlueprintName = "UINavigation_0511"
-            ReferencedContainer = "container:UINavigation_0511.xcodeproj">
+            BuildableName = "UIToolBar_0511.app"
+            BlueprintName = "UIToolBar_0511"
+            ReferencedContainer = "container:UIToolBar_0511.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

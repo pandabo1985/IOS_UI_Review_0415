@@ -24,7 +24,7 @@
     return self;
 }
 
- -(void)loadView
+-(void)loadView
 {
     UIView *baseView = [[UIView alloc] initWithFrame:[[UIScreen mainScreen]applicationFrame]];
     baseView.backgroundColor = [UIColor purpleColor];
@@ -37,7 +37,7 @@
     [self.view addSubview:button];
     
     UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemBookmarks target:self action:@selector(study)];
-//    self.navigationController.navigationItem.leftBarButtonItem = leftItem;//错误的写法。一个导航控制器，控制着若干个试图控制器。
+    //    self.navigationController.navigationItem.leftBarButtonItem = leftItem;//错误的写法。一个导航控制器，控制着若干个试图控制器。
     self.navigationItem.leftBarButtonItem = leftItem;
     [leftItem release];
     
@@ -48,6 +48,30 @@
     UIBarButtonItem *rightItem = [[UIBarButtonItem alloc] initWithCustomView:item];
     self.navigationItem.rightBarButtonItem = rightItem;
     [rightItem release];
+    
+    UIToolbar *toolBar = [[UIToolbar alloc] initWithFrame:CGRectMake(0, 460-30, 320, 44)];
+    toolBar.barStyle = UIBarStyleDefault;
+    [self.view addSubview:toolBar];
+    [toolBar release];
+    
+    UIBarButtonItem *addItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemAdd target:self action:nil];
+    UIBarButtonItem *saveItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemSave target:self action:nil];
+    UIBarButtonItem *editItem = [[UIBarButtonItem alloc] initWithBarButtonSystemItem:UIBarButtonSystemItemEdit target:self action:nil];
+    UIBarButtonItem *titleItem = [[UIBarButtonItem alloc] initWithTitle:@"title" style:UIBarButtonItemStylePlain  target:self action:nil];
+    //设置间隔
+    UIBarButtonItem *flexibleItem =[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFlexibleSpace target:self action:nil];
+     UIBarButtonItem *fixItem =[[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:self action:nil];
+    fixItem.width = 5;
+    NSArray *items = @[addItem,flexibleItem,saveItem,flexibleItem,editItem,fixItem,titleItem];
+    [addItem release];
+    [flexibleItem release];
+    [saveItem release];
+    [editItem release];
+    [titleItem release];
+    [fixItem release];
+    [toolBar setItems:items animated:YES];
+//    [self.navigationController setToolbarItems:items animated:YES];
+//    [self setToolbarItems:items animated:YES];
     
 }
 
@@ -77,15 +101,15 @@
 }
 
 /*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
-{
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
+ #pragma mark - Navigation
+ 
+ // In a storyboard-based application, you will often want to do a little preparation before navigation
+ - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender
+ {
+ // Get the new view controller using [segue destinationViewController].
+ // Pass the selected object to the new view controller.
+ }
+ */
 
 -(void)study
 {
