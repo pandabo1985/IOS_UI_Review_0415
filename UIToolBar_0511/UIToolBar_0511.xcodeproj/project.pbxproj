@@ -21,6 +21,9 @@
 		3B1848931917CA1C00E1CC2C /* UINavigation_0505Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1848921917CA1C00E1CC2C /* UINavigation_0505Tests.m */; };
 		3B18489E1917CCEA00E1CC2C /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B18489D1917CCEA00E1CC2C /* RootViewController.m */; };
 		3B1848A11917CD0800E1CC2C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1848A01917CD0800E1CC2C /* SecondViewController.m */; };
+		3BAB25CD19210AA100E98688 /* UINavigationBar+SetBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB25CC19210AA100E98688 /* UINavigationBar+SetBackground.m */; };
+		3BAB25CF19210BA500E98688 /* back.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BAB25CE19210BA500E98688 /* back.jpg */; };
+		3BAB25D219210D4800E98688 /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BAB25D119210D4800E98688 /* NavigationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,11 @@
 		3B18489D1917CCEA00E1CC2C /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		3B18489F1917CD0800E1CC2C /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3B1848A01917CD0800E1CC2C /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3BAB25CB19210AA100E98688 /* UINavigationBar+SetBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+SetBackground.h"; sourceTree = "<group>"; };
+		3BAB25CC19210AA100E98688 /* UINavigationBar+SetBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+SetBackground.m"; sourceTree = "<group>"; };
+		3BAB25CE19210BA500E98688 /* back.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = back.jpg; sourceTree = "<group>"; };
+		3BAB25D019210D4800E98688 /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		3BAB25D119210D4800E98688 /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +123,15 @@
 			children = (
 				3B18487C1917CA1C00E1CC2C /* AppDelegate.h */,
 				3B18487D1917CA1C00E1CC2C /* AppDelegate.m */,
+				3BAB25D019210D4800E98688 /* NavigationViewController.h */,
+				3BAB25D119210D4800E98688 /* NavigationViewController.m */,
 				3B18489C1917CCEA00E1CC2C /* RootViewController.h */,
 				3B18489D1917CCEA00E1CC2C /* RootViewController.m */,
 				3B18489F1917CD0800E1CC2C /* SecondViewController.h */,
 				3B1848A01917CD0800E1CC2C /* SecondViewController.m */,
+				3BAB25CB19210AA100E98688 /* UINavigationBar+SetBackground.h */,
+				3BAB25CC19210AA100E98688 /* UINavigationBar+SetBackground.m */,
+				3BAB25CE19210BA500E98688 /* back.jpg */,
 				3B18487F1917CA1C00E1CC2C /* Images.xcassets */,
 				3B1848741917CA1C00E1CC2C /* Supporting Files */,
 			);
@@ -230,6 +243,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3B1848781917CA1C00E1CC2C /* InfoPlist.strings in Resources */,
+				3BAB25CF19210BA500E98688 /* back.jpg in Resources */,
 				3B1848801917CA1C00E1CC2C /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,6 +265,8 @@
 			files = (
 				3B1848A11917CD0800E1CC2C /* SecondViewController.m in Sources */,
 				3B18487E1917CA1C00E1CC2C /* AppDelegate.m in Sources */,
+				3BAB25D219210D4800E98688 /* NavigationViewController.m in Sources */,
+				3BAB25CD19210AA100E98688 /* UINavigationBar+SetBackground.m in Sources */,
 				3B18487A1917CA1C00E1CC2C /* main.m in Sources */,
 				3B18489E1917CCEA00E1CC2C /* RootViewController.m in Sources */,
 			);

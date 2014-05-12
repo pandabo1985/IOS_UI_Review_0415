@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "RootViewController.h"
+#import "NavigationViewController.h"
 
 @implementation AppDelegate
 
@@ -21,7 +22,13 @@
     RootViewController *rootCtrl = [[RootViewController alloc] init];
     
     NSLog(@"navigationController ==  %p",rootCtrl.navigationController);
-    UINavigationController *naviCtrl = [[UINavigationController alloc] initWithRootViewController:rootCtrl];
+//    UINavigationController *naviCtrl = [[UINavigationController alloc] initWithRootViewController:rootCtrl];
+    NavigationViewController *naviCtrl =[[NavigationViewController alloc] initWithRootViewController:rootCtrl];
+//    if ([naviCtrl.navigationBar respondsToSelector:@selector(setBackgroundImage:forBarMetrics:)]) {
+//       [naviCtrl.navigationBar setBackgroundImage:[UIImage imageNamed:@"back.jpg"] forBarMetrics:UIBarMetricsDefault];
+//    }
+
+    
      NSLog(@"navigationController ==  %p",rootCtrl.navigationController);
     self.window.rootViewController = naviCtrl;
     [rootCtrl release];
