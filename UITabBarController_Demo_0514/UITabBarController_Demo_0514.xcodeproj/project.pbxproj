@@ -461,6 +461,7 @@
 				3B7308661923A79C00E7CA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B7308671923A79C00E7CA6E /* Build configuration list for PBXNativeTarget "UITabBarController_Demo_0514Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +470,7 @@
 				3B7308691923A79C00E7CA6E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

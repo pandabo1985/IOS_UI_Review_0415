@@ -21,19 +21,30 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     HomeController *homeCtrl = [[HomeController alloc] init];
-    homeCtrl.title = @"主页";
+    UITabBarItem *homeItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:1];
+    homeCtrl.tabBarItem = homeItem;
+    [homeItem release];
+    
     
     MessageController *mesCtrl = [[MessageController alloc] init];
-    mesCtrl.title = @"消息";
     mesCtrl.view.backgroundColor = [UIColor redColor];
+    UITabBarItem *mesItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMostRecent tag:2];
+    mesCtrl.tabBarItem = mesItem;
+    [mesItem release];
     
     SearchController *searCtrl = [[SearchController alloc] init];
-    searCtrl.title = @"搜索";
     searCtrl.view.backgroundColor = [UIColor blueColor];
+    UITabBarItem *serarItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemSearch tag:3];
+    searCtrl.tabBarItem = serarItem;
+    [serarItem release];
+    
     
     SetController *setCtrl = [[SetController alloc] init];
-    setCtrl.title = @"设置";
     setCtrl.view.backgroundColor =[UIColor grayColor];
+    UITabBarItem *setItem = [[UITabBarItem alloc] initWithTabBarSystemItem:UITabBarSystemItemMore   tag:4];
+    setCtrl.tabBarItem = setItem;
+    [setItem release];
+    
     UITabBarController *tabBarCtrl = [[UITabBarController alloc] init];
     NSArray *ctrls = @[homeCtrl,mesCtrl,searCtrl,setCtrl];
     [homeCtrl release];
