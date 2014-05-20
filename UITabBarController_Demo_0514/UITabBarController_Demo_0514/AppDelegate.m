@@ -52,9 +52,21 @@
     [setCtrl release];
     [searCtrl release];
     [tabBarCtrl setViewControllers:ctrls animated:YES];
+    
+    tabBarCtrl.delegate = self;
     [self.window setRootViewController:tabBarCtrl];
     [tabBarCtrl release];
     return YES;
+}
+
+#pragma mark -UITabBarController Delegate
+- (BOOL)tabBarController:(UITabBarController *)tabBarController shouldSelectViewController:(UIViewController *)viewController {
+      NSLog(@"shouldSelectViewController  == %@",viewController);
+    return YES;
+}
+- (void)tabBarController:(UITabBarController *)tabBarController didSelectViewController:(UIViewController *)viewController
+{
+    NSLog(@"didSelectViewController    == %@",viewController);
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
